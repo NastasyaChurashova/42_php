@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+
+.container a {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  color: grey;
+  text-align: center;
+  margin: 10px;
+}
+
+.container a:nth-child(2n){
+    background: greenyellow;
+}
+
+.new_colour {
+  background-color: red;
+}
+
